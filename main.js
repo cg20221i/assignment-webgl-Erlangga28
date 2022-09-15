@@ -11,6 +11,11 @@ function main() {
         -0.65, -0.58,
         -0.65, 0.6,
        
+        //number 8
+
+        //Alphabet G
+
+        
         
 
        
@@ -55,11 +60,12 @@ function main() {
     gl.vertexAttribPointer(aPosition, 2, gl.FLOAT, false, 0, 0);
     gl.enableVertexAttribArray(aPosition);
   
-    gl.clearColor(1.0, 0.75, 0.79, 1.0); 
+    //gl.clearColor(1.0, 0.75, 0.79, 1.0); 
   
     gl.clear(gl.COLOR_BUFFER_BIT);
   
     gl.drawArrays(gl.LINE_LOOP, 0, 6);
+    gl.lineto(gl.LINE_LOOP, 6, )
 
 
 }
