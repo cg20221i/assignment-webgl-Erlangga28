@@ -5,7 +5,7 @@
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./BG\ valershop.png);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./old\ trafford\ wlpp.jpg);
     height: 200vh;
     background-size: cover;
     background-position: center;
@@ -13,6 +13,6 @@ header{
 
 #myCanvas {
     position: absolute;
-    top: 0; 
-    left: 0;
+    top: 200px;
+    left: 300px;
 }

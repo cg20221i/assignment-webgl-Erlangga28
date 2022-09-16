@@ -10,16 +10,58 @@ function main() {
         -0.49, -0.25,
         -0.65, -0.58,
         -0.65, 0.6,
-       
-        //number 8
 
         //Alphabet G
+        0.42, 0.75, //Phase 1 
+        0.32, 0.6,
+        -0.15, 0.75,
+        -0.28, 0.6,
 
+        -0.15, 0.6, //Phase 2
+        -0.28, -0.25,
+        -0.15, -0.25,
+
+        -0.15, -0.1, //Phase 3
+        0.37, -0.25,
+        0.37, -0.1,
+
+        0.25, -0.1, //Phase 4
+        0.37, 0.26,
+        0.25, 0.26,
+
+        0.25, 0.13, //Phase 5
+        0.08, 0.26,
+        0.08, 0.13,
         
-        
+         //number 8
+         0.9, 0.75, 
+         0.62, 0.75,
+         0.5, 0.6,
+         0.5, 0.13,
+         0.59, 0.07,
 
-       
+         0.88, -0.04,
+         0.88, -0.42,
+         0.6, -0.42,
+         0.59, 0.07,
 
+         0.5, -0.04,
+         0.5, -0.46,
+         0.62, -0.58,
+         0.9, -0.58,
+         1, -0.46,
+         1, -0.04,
+         0.91, 0.07,
+
+         0.61, 0.22,
+         0.61, 0.58,
+         0.88, 0.58,
+         0.91, 0.07,
+
+         1, 0.16,
+         1, 0.6,
+         
+        //Alphabet A
     
 
 
@@ -43,7 +85,7 @@ function main() {
   
     var fragmentShaderCode = `
           void main () {
-            gl_FragColor = vec4(0.0, 0.0, 1.0, 1.0);
+            gl_FragColor = vec4(255, 0.0, 0.0, 0.8);
           }
     `;
     var fragmentShader = gl.createShader(gl.FRAGMENT_SHADER);
@@ -65,7 +107,7 @@ function main() {
     gl.clear(gl.COLOR_BUFFER_BIT);
   
     gl.drawArrays(gl.LINE_LOOP, 0, 6);
-    gl.lineto(gl.LINE_LOOP, 6, )
-
+    gl.drawArrays(gl.TRIANGLE_STRIP, 6, 16);
+    gl.drawArrays(gl.LINE_LOOP, 22, 22 );
 
 }
