@@ -7,5 +7,6 @@ ERLANGGA WAHYU UTOMO
  | :---:  |  :---: |
  | 1 8    |  M O   |
  
- Preview the Result :
- ![Preview](Result.jpeg)
+ Preview the Result
+ 
+ ![Preview the Result](Result.jpeg)
