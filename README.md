@@ -9,4 +9,4 @@ ERLANGGA WAHYU UTOMO
  
  Preview the Result
  
- ![Preview the Result](Result.jpeg)
+ ![Preview](Result.png)
