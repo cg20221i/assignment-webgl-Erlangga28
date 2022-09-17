@@ -5,8 +5,8 @@
 }
 
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Old\ Trafford.jfif);
-    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Old\ Trafford\ Field.jpg);
+    height: 150vh;
     background-size: cover;
     background-position: center;
 }
