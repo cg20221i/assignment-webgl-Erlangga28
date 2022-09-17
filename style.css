@@ -19,14 +19,14 @@ header{
 
 #Name {
     position: absolute;
-    top: 0px;
+    top: 15px;
     right: 20px;
     font-size: 35px;
 }
 
 #NRP {
     position: absolute;
-    top: 40px;
+    top: 60px;
     right: 20px;
 
     font-size: 25px;
