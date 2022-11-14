@@ -4,7 +4,7 @@
     font-family: Courier;
 }
 
-header{
+body{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Old\ Trafford\ Field.jpg);
     height: 150vh;
     background-size: cover;
